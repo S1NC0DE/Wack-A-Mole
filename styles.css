@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+}
+
+h1 {
+    font-size:3rem;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: hotpink;
+    text-align: center
+}
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid black ;
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    background-color: yellow;
+    position: absolute;
+    left: 30%;
+    
+}
+
+.mole {
+    background-image: url('images/mole.png');
+    background-size: cover;
+}
